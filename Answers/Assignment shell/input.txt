@@ -1,0 +1,6 @@
+This is a sample text file. It contains some words that will be counted.
+The words in this file are not case-sensitive, so "word" and "Word" are the same.
+This file also contains punctuation marks, like commas and periods, which will be removed.
+It's important to note that words like "a" and "the" are considered common stop words and may not appear in the top 5.
+The top 5 words in this example should be: "this", "file", "words", "is", and "it".
+

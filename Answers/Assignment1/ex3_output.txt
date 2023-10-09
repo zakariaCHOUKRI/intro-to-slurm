@@ -1,0 +1,11 @@
+This is array task ArrayTaskID   SampleName        Sex, the sample name is  and the sex is .
+This is array task 1             Ahmed             M, the sample name is  and the sex is .
+This is array task 2             Amine             M, the sample name is  and the sex is .
+This is array task 3             Amal              F, the sample name is  and the sex is .
+This is array task 4             Samir             M, the sample name is  and the sex is .
+This is array task 5             Ali               M, the sample name is  and the sex is .
+This is array task 6             Camelia           F, the sample name is  and the sex is .
+This is array task 7             Myriam            F, the sample name is  and the sex is .
+This is array task 8             Radouan           M, the sample name is  and the sex is .
+This is array task 9             Ikram             F, the sample name is  and the sex is .
+This is array task 10            Sara              F, the sample name is  and the sex is .

@@ -1,0 +1,11 @@
+ArrayTaskID   SampleName        Sex
+1             Ahmed             M
+2             Amine             M
+3             Amal              F
+4             Samir             M
+5             Ali               M
+6             Camelia           F
+7             Myriam            F
+8             Radouan           M
+9             Ikram             F
+10            Sara              F
