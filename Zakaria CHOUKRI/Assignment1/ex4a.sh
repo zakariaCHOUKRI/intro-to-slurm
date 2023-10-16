@@ -4,7 +4,8 @@
 
 # Exercise 4
 
-#SBATCH --job-name=job_a
+#SBATCH --job-name=ex4a
 #SBATCH --output=ex4a_output.txt
 
-python quadratic_equation.py
+python ex4.py
+sleep 30

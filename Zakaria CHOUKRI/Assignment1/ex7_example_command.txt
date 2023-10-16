@@ -1,0 +1,1 @@
+sacct -j 5842749 --format "JobID, JobName, Partition, Account, AllocCPUS, Start, End, Elapsed, MaxRSS, MaxVMSize, ExitCode"

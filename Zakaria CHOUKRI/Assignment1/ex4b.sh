@@ -4,8 +4,8 @@
 
 # Exercise 4
 
-#SBATCH --job-name=job_b
+#SBATCH --job-name=ex4b
 #SBATCH --output=ex4b_output.txt
-#SBATCH --dependency=afterok:job_a
+#SBATCH --dependency=afterok:5842726
 
-python quadratic_equation.py
+python ex4.py

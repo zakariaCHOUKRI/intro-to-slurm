@@ -1,11 +1,11 @@
-This is array task ArrayTaskID   SampleName        Sex, the sample name is  and the sex is .
-This is array task 1             Ahmed             M, the sample name is  and the sex is .
-This is array task 2             Amine             M, the sample name is  and the sex is .
-This is array task 3             Amal              F, the sample name is  and the sex is .
-This is array task 4             Samir             M, the sample name is  and the sex is .
-This is array task 5             Ali               M, the sample name is  and the sex is .
-This is array task 6             Camelia           F, the sample name is  and the sex is .
-This is array task 7             Myriam            F, the sample name is  and the sex is .
-This is array task 8             Radouan           M, the sample name is  and the sex is .
-This is array task 9             Ikram             F, the sample name is  and the sex is .
-This is array task 10            Sara              F, the sample name is  and the sex is .
+This is array task ArrayTaskID, the sample name is SampleName and the sex is Sex.
+This is array task 1, the sample name is Ahmed and the sex is M.
+This is array task 2, the sample name is Amine and the sex is M.
+This is array task 3, the sample name is Amal and the sex is F.
+This is array task 4, the sample name is Samir and the sex is M.
+This is array task 5, the sample name is Ali and the sex is M.
+This is array task 6, the sample name is Camelia and the sex is F.
+This is array task 7, the sample name is Myriam and the sex is F.
+This is array task 8, the sample name is Radouan and the sex is M.
+This is array task 9, the sample name is Ikram and the sex is F.
+This is array task 10, the sample name is Sara and the sex is F.

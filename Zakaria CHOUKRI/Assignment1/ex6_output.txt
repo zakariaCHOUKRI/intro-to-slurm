@@ -1,0 +1,2 @@
+An error occurred. Exit status: 0
+This line will only be reached if the previous command succeeds.
