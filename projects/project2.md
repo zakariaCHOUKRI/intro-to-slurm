@@ -1,6 +1,6 @@
 ## Manage resources
 
-Create an application that allows the user to choose a partition and then automatically displays the number of available CPUs in that partition using the ```scontrol```, ```squeue```, and ```sinfo``` commands, you can follow these steps:
+Create an application that allows the user to choose a partition and then automatically displays the number of available CPUs and GPUs in that partition using the ```scontrol```, ```squeue```, and ```sinfo``` commands, you can follow these steps:
 
 ### Data Collection:
 - Use the ```scontrol```, ```squeue```, and ```sinfo``` commands to collect information about the partitions and resources in the cluster.
