@@ -1,12 +1,11 @@
-## Manage resources
+## Resource Management System for Cluster Partitions
 
-Create an application that allows the user to choose a partition and then automatically displays the number of available CPUs and GPUs in that partition using the ```scontrol```, ```squeue```, and ```sinfo``` commands, you can follow these steps:
+Develop an application that enables users to select a partition and automatically displays the number of available CPUs and GPUs in that partition. The application will leverage ```scontrol```, ```squeue```, and ```sinfo``` commands for data collection and use Dash for creating a user interface.
 
-### Data Collection:
-- Use the ```scontrol```, ```squeue```, and ```sinfo``` commands to collect information about the partitions and resources in the cluster.
-- Analyze this information to extract the available partitions and the number of available CPUs and GPUs in each partition.
+### Project Details:
 
-### Create an Interface with Dash:
-- Use Dash to create a web interface that allows the user to select a partition from the list of available partitions.
-- Use a callback function to automatically update the number of available CPUs based on the selected partition.
-
+- Utilize ```scontrol```, ```squeue```, and ```sinfo``` commands to gather information about the partitions and resources in the cluster.
+- Analyze this data to identify the available partitions and determine the number of available CPUs and GPUs in each partition.
+- User Interface with Dash:
+  - Employ Dash to develop a web interface that allows users to choose a partition from the list of available partitions.
+  - Implement a callback function to automatically update the number of available CPUs based on the selected partition.
