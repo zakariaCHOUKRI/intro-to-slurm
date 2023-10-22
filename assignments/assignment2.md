@@ -49,6 +49,36 @@ if rank == 0:
 
 ## Exercise 2: Computing Pi using Monte Carlo
 
+- Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. 
+- One of the basic examples of getting started with the Monte Carlo algorithm is the estimation of Pi.
+
+## Estimation of Pi
+- The idea is to simulate random (x, y) points in a 2-D plane with domain as a square of side 1 unit. 
+- Imagine a circle inside the same domain with same diameter and inscribed into the square. 
+- We then calculate the ratio of number points that lied inside the circle and total number of generated points. 
+- Refer to the image below:
+
+![demo](figures/MonteCarloPlot.png)
+
+We know that area of the square is 1 unit sq while that of circle is $\pi \ast  (\frac{1}{2})^{2} = \frac{\pi}{4}$. Now for a very large number of generated points,
+
+![demo](figures/MonteCarloCalc.png)
+
+
+## The Algorithm
+
+1. Initialize circle_points, square_points and interval to 0.
+2. Generate random point x.
+3. Generate random point y.
+4. Calculate d = x*x + y*y.
+5. If d <= 1, increment circle_points.
+6. Increment square_points.
+7. Increment interval.
+8. If increment < NO_OF_ITERATIONS, repeat from 2.
+9. Calculate pi = 4*(circle_points/square_points).
+10. Terminate.
+
+
 - Load modules `OpenMPI/4.0.3-GCC-9.3.0` and `Python/3.8.2-GCCcore-9.3.0`
 - Write a unique SLURM batch file to run the code below, with different `total_points` (e.g. 1000,10000,100000,1000000) and with different number of cores (e.g. 1, 2, 4, 8).
 
