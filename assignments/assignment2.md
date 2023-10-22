@@ -131,7 +131,8 @@ if rank == 0:
 
 ## Exercise 3: Sum of the square roots CPU vs GPU
 - Load modules `Python/3.8.2-GCCcore-9.3.0` and `CUDA/11.1.1`
-- Write SLURM script to run the code below, and compare the cpu time with the code of the exercise 1, using different sizes of N.
+- Add ```from numba import njit``` to the script of exercise 1 and ```@njit``` before the function ```sum_of_square_root```.
+- Write SLURM script to run the two codes, and compare the cpu time using different sizes of N.
 
 ```python
 import numba
