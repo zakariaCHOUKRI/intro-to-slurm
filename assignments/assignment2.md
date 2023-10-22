@@ -133,7 +133,7 @@ if rank == 0:
 - Load modules `Python/3.8.2-GCCcore-9.3.0` and `CUDA/11.1.1`
 - Write SLURM script to run the two codes below, and compare the cpu time using different sizes of N.
 
-Numba version:
+### Numba version:
 
 ```python
 from mpi4py import MPI
@@ -180,7 +180,7 @@ if rank == 0:
     print(f"The sum of squares from 1 to {N} is: {total_result}")
 ```
 
-GUDA version:
+### GUDA version:
 ```python
 import numba
 from numba import cuda
