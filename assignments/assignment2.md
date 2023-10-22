@@ -180,7 +180,7 @@ if rank == 0:
     print(f"The sum of squares from 1 to {N} is: {total_result}")
 ```
 
-### GUDA version:
+### CUDA version:
 ```python
 import numba
 from numba import cuda
