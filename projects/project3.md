@@ -2,7 +2,7 @@
 
 Create a system that allows for the control and management of each node in a cluster. The system could use tools like SLURM’s ```scontrol``` to interact with the nodes.
 
-Project Details:
+### Project Details:
 
 - Resource Management: The system could provide detailed information about resource usage by each node, including CPU, GPU and memory.
 - Monitoring and Alerts: The system could monitor the status and resource usage of each node and send alerts in case of issues.
