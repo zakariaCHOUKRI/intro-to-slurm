@@ -132,6 +132,7 @@ if rank == 0:
 ## Exercise 3: Sum of the square roots CPU vs GPU
 - Load modules `Python/3.8.2-GCCcore-9.3.0` and `CUDA/11.1.1`
 - Write SLURM script to run the two codes below, and compare the cpu time using different sizes of N.
+- Plot the result of the comparison.
 
 ### Numba version:
 
@@ -221,7 +222,9 @@ print(f"The sum of squares from 1 to {N} is: {total_result}")
 
 ## Exercise 4:  Matrix multiplication using CPU vs GPU
 - Load modules `Python/3.8.2-GCCcore-9.3.0` and `CUDA/11.1.1`
-- Write SLURM script to run the code below, and compare the cpu time using different sizes of the matrices A and B.
+- Write SLURM script to run the code below, and compare the cpu time using different sizes of matrices A and B.
+- Plot the result of the comparison.
+
 
 ```python
 from numba import cuda, njit
