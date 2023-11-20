@@ -22,7 +22,8 @@ def plot_cpu_time(output_files, output_image='cpu_time_plot.png'):
     plt.grid(True)
 
     plt.savefig(output_image)  # Save the plot to an image file
-    plt.show()
+    plt.close()  # Close the plot to prevent it from being displayed immediately
+    print(f"Plot saved to {output_image}")
 
 if __name__ == "__main__":
     output_files = [file for file in os.listdir() if file.startswith('output_') and file.endswith('.txt')]
