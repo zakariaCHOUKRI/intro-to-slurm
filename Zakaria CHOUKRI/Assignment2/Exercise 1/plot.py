@@ -5,15 +5,21 @@ import matplotlib.pyplot as plt
 def extract_cpu_time(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
-        match = re.search(r'cpu time is: (\d+\.\d+)', content)
+        match = re.search(r'cpu time is:  (\d+\.\d+)', content)
         if match:
             return float(match.group(1))
         else:
+            print(f"Failed to extract CPU time from file: {file_path}")
+            print(f"File content: {content}")
             return None
 
 def plot_cpu_time(output_files, output_image='cpu_time_plot.png'):
     core_counts = [int(re.search(r'output_(\d+).txt', file).group(1)) for file in output_files]
     cpu_times = [extract_cpu_time(file) for file in output_files]
+
+    # Print debug information
+    print("Core Counts:", core_counts)
+    print("CPU Times:", cpu_times)
 
     plt.plot(core_counts, cpu_times, marker='o')
     plt.title('CPU Time vs Number of Cores')
