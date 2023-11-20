@@ -1,2 +1,2 @@
-cpu time is:  0.011951695
+cpu time is:  0.010365982
 The sum of squares from 1 to 100000 is: 5000050000.0

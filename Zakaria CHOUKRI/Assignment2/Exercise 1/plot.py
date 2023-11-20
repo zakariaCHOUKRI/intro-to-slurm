@@ -11,7 +11,7 @@ def extract_cpu_time(file_path):
         else:
             return None
 
-def plot_cpu_time(output_files):
+def plot_cpu_time(output_files, output_image='cpu_time_plot.png'):
     core_counts = [int(re.search(r'output_(\d+).txt', file).group(1)) for file in output_files]
     cpu_times = [extract_cpu_time(file) for file in output_files]
 
@@ -20,11 +20,13 @@ def plot_cpu_time(output_files):
     plt.xlabel('Number of Cores')
     plt.ylabel('CPU Time (s)')
     plt.grid(True)
+
+    plt.savefig(output_image)  # Save the plot to an image file
     plt.show()
 
 if __name__ == "__main__":
     output_files = [file for file in os.listdir() if file.startswith('output_') and file.endswith('.txt')]
     output_files.sort()  # Sort files to maintain the order
 
-    plot_cpu_time(output_files)
+    plot_cpu_time(output_files, output_image='cpu_time_plot.png')
 
