@@ -21,11 +21,13 @@ def plot_cpu_time(output_files, output_image='cpu_time_plot.png'):
     print("Core Counts:", core_counts)
     print("CPU Times:", cpu_times)
 
-    plt.plot(core_counts, cpu_times, marker='o')
+    plt.plot(core_counts, cpu_times, marker='o', linestyle='--', markersize=8)
     plt.title('CPU Time vs Number of Cores')
     plt.xlabel('Number of Cores')
     plt.ylabel('CPU Time (s)')
-    plt.grid(True)
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.xlim(0, max(core_counts) + 10)
+    plt.ylim(0, max(cpu_times) + 1)
 
     plt.savefig(output_image)  # Save the plot to an image file
     plt.close()  # Close the plot to prevent it from being displayed immediately
