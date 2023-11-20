@@ -22,3 +22,4 @@ do
 	sbatch $script
 done
 
+python3 plot.py
