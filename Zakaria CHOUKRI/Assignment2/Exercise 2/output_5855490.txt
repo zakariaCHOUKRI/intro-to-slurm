@@ -1,0 +1,32 @@
+Running with total_points=1000 and cores=1
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=1000 and cores=2
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=1000 and cores=4
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=1000 and cores=8
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=10000 and cores=1
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=10000 and cores=2
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=10000 and cores=4
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=10000 and cores=8
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=100000 and cores=1
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=100000 and cores=2
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=100000 and cores=4
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=100000 and cores=8
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=1000000 and cores=1
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=1000000 and cores=2
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=1000000 and cores=4
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
+Running with total_points=1000000 and cores=8
+/cm/local/apps/slurm/var/spool/job5855490/slurm_script: line 20: mpiexec: command not found
